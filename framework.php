@@ -15,7 +15,7 @@ defined('_JEXEC') or die;
   /* ===================================================================== */
 
 // Define shortcuts for template parameters
-$unsetBootstrap = $this->params->get('unsetBootstrap');
+$unsetCoreScripts = $this->params->get('unsetCoreScripts');
 //$loadMoo = $this->params->get('loadMoo');
 $setGeneratorTag = $this->params->get('setGeneratorTag');
 $analytics = $this->params->get('analytics');
