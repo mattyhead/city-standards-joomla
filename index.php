@@ -25,7 +25,7 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     ?>
     <?php
     if ($customCSS != -1) {
-        $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/' . $customCSS);
+        //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/' . $customCSS);
     }
     ?>
     <?php
