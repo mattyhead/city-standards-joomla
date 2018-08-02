@@ -22,13 +22,11 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     <jdoc:include type="head" />
     <?php
     $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/phila-standards.css');
-    ?>
-    <?php
+    
     if ($customCSS != -1) {
         //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/' . $customCSS);
     }
-    ?>
-    <?php
+    
     if (!$unsetCoreScripts == 0) {
         unset($doc->_scripts[JURI::root(true) . '/media/system/js/mootools-more.js']);
         unset($doc->_scripts[JURI::root(true) . '/media/system/js/mootools-core.js']);
