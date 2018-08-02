@@ -29,7 +29,6 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     }
     ?>
     <?php
-    JHtml::_('jquery.framework');
     if (!$unsetCoreScripts == 0) {
         unset($doc->_scripts[JURI::root(true) . '/media/system/js/mootools-more.js']);
         unset($doc->_scripts[JURI::root(true) . '/media/system/js/mootools-core.js']);
