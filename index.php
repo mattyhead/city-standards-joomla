@@ -222,15 +222,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="row classic">
                 <nav class="columns center">
                     <ul class="inline-list">
-                        <li class="pbm">
+                        <li class="fa-inverse">
                             &copy; <?php echo date("Y"); ?> <?php echo htmlspecialchars($app->getCfg('sitename')); ?>
                         </li>
-                        <li class="pbm">|</li>
-                        <li class="pbm"><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf" target="_blank">Right to know (pdf)</a></li>
-                        <li class="pbm">|</li>
-                        <li class="pbm"><a href="/terms-of-use/">Terms of use</a></li>
-                        <li class="pbm">|</li>
-                        <li class="pbm"><a href="/privacypolicy/">Privacy Policy</a></li>
+                        <li class="fa-inverse">|</li>
+                        <li class="fa-inverse"><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf" target="_blank">Right to know (pdf)</a></li>
+                        <li class="fa-inverse">|</li>
+                        <li class="fa-inverse"><a href="/terms-of-use/">Terms of use</a></li>
+                        <li class="fa-inverse">|</li>
+                        <li class="fa-inverse"><a href="/privacypolicy/">Privacy Policy</a></li>
                     </ul>
                 </nav>
             </div>
