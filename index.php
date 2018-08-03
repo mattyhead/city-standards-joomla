@@ -177,7 +177,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </ul>
                     </nav>
                 </section>
-                <section class="medium-8 columns phm pll-mu pvm pvn-mu">
+                <section class="medium-8 columns phm pvm pvn-mu">
                     <h2 class="mtn mbm">Our Department</h2>
                     <nav class="take-action">
                         <ul>
@@ -186,7 +186,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </ul>
                     </nav>
                 </section>
-                <section class="medium-8 columns phm pll-mu pvm pvn-mu">
+                <section class="medium-8 columns phm pvm pvn-mu">
                     <h2 class="mtn mbm">The City Commissioners</h2>
 <!--                     <nav class="city-social">
                         <ul class="inline-list">
