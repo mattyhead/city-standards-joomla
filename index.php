@@ -219,8 +219,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </nav>
                 </section>
             </div>
-        </div>
-        <div class="bg-black">
             <div class="row classic">
                 <nav class="columns center">
                     <ul class="inline-list">
@@ -228,13 +226,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <?php if ($disclaimer == 1 && $disclaimerlink) : ?>
                             <a href="<?php echo $disclaimerlink; ?>"><?php echo JText::_("TPL_FOUNDOUT6_DISCLAIMER"); ?></a><br/>
                             <?php endif; ?>
-                            &copy; <?php echo date("Y"); ?> <?php echo htmlspecialchars($app->getCfg('sitename')); ?>
+                            &copy; <?php echo date("Y"); ?> <?php echo htmlspecialchars($app->getCfg('sitename')); ?> | 
                         </li>                        <li><a href="/terms-of-use/">Terms of use</a></li>
                         <li><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf" target="_blank">Right to know (pdf)</a></li>
                         <li><a href="/privacypolicy/">Privacy Policy</a></li>
                     </ul>
                 </nav>
             </div>
+        </div>
+        <div class="bg-black">
         </div>
     </footer>
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/phila-standards.js"></script>
