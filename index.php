@@ -155,15 +155,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <footer data-swiftype-index='false' class="site-footer">
         <div class="fat">
 <?php if ($this->countModules('footer')) : ?>
-            <div class="footer-row">
-                <div class="wrapper">
-                    <footer class="row">
-                        <!--footerrow-->
-                        <jdoc:include type="modules" name="footer" style="joomberui" />
-                    </footer>
-                </div>
-            </div>
-<?php endif; ?>
+            <jdoc:include type="modules" name="footer" style="joomberui" />
             <div class="row pvs ptl-mu phm equal-height">
                 <section class="medium-8 columns phm pvm pvn-mu">
                     <h2 class="mtn mbm">Site links</h2>
@@ -222,6 +214,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </nav>
                 </section>
             </div>
+<?php endif; ?>
             <div class="row classic">
                 <nav class="columns center">
                     <ul class="inline-list">
