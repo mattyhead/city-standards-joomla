@@ -150,6 +150,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
 <?php endif; ?>
+        </div>
+    </div>
+    <footer data-swiftype-index='false' class="site-footer">
+        <div class="fat">
 <?php if ($this->countModules('footer')) : ?>
             <div class="footer-row">
                 <div class="wrapper">
@@ -160,10 +164,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
 <?php endif; ?>
-        </div>
-    </div>
-    <footer data-swiftype-index='false' class="site-footer">
-        <div class="fat">
             <div class="row pvs ptl-mu phm equal-height">
                 <section class="medium-8 columns phm pvm pvn-mu">
                     <h2 class="mtn mbm">Site links</h2>
