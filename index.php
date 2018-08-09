@@ -153,8 +153,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
     <footer data-swiftype-index='false' class="site-footer">
         <div class="fat">
-<?php if ($this->countModules('footer-')) : ?>
             <div class="row pvs ptl-mu phm equal-height">
+<?php if ($this->countModules('footer-')) : ?>
                 <jdoc:include type="modules" name="footer" style="joomberui" />
                 <section class="medium-8 columns phm pvm pvn-mu">
                     <h2 class="mtn mbm">Site links</h2>
