@@ -149,22 +149,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </section>
                 </div>
             </div>
-<?php endif; ?>
-<?php if ($this->countModules('footer')) : ?>
-            <div class="footer-row">
-                <div class="wrapper">
-                    <footer class="row">
-                        <!--footerrow-->
-                        <jdoc:include type="modules" name="footer" style="joomberui" />
-                    </footer>
-                </div>
-            </div>
-<?php endif; ?>
         </div>
     </div>
     <footer data-swiftype-index='false' class="site-footer">
         <div class="fat">
+<?php if ($this->countModules('footer-')) : ?>
             <div class="row pvs ptl-mu phm equal-height">
+                <jdoc:include type="modules" name="footer" style="joomberui" />
                 <section class="medium-8 columns phm pvm pvn-mu">
                     <h2 class="mtn mbm">Site links</h2>
                     <nav class="take-action">
@@ -221,19 +212,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </ul>
                     </nav>
                 </section>
+<?php endif; ?>
             </div>
             <div class="row classic">
                 <nav class="columns center">
                     <ul class="inline-list">
-                        <li class="fa-inverse">
-                            &copy; <?php echo date("Y"); ?> <?php echo htmlspecialchars($app->getCfg('sitename')); ?>
+                        <li>
+                            <a href="#">&copy; <?php echo date("Y"); ?> <?php echo htmlspecialchars($app->getCfg('sitename')); ?></a>
                         </li>
                         <li class="fa-inverse">|</li>
-                        <li class="fa-inverse"><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf" target="_blank">Right to know (pdf)</a></li>
+                        <li><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf" target="_blank">Right to know (pdf)</a></li>
                         <li class="fa-inverse">|</li>
-                        <li class="fa-inverse"><a href="/terms-of-use/">Terms of use</a></li>
+                        <li><a href="/terms-of-use/">Terms of use</a></li>
                         <li class="fa-inverse">|</li>
-                        <li class="fa-inverse"><a href="/privacypolicy/">Privacy Policy</a></li>
+                        <li><a href="/privacypolicy/">Privacy Policy</a></li>
                     </ul>
                 </nav>
             </div>
