@@ -16,6 +16,8 @@
         <filename>framework.php</filename>
         <filename>templateDetails.xml</filename>
         <filename>favicon.png</filename>
+        <filename>template_preview.png</filename>
+        <filename>template_thumbnail.png</filename>
         <folder>css</folder>
         <!-- <folder>html</folder> -->
         <!-- <folder>helpers</folder> -->
