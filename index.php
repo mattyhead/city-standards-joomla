@@ -159,11 +159,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <jdoc:include type="modules" name="footer" style="joomberui" />
             </div>
 <?php endif; ?>
-<?php if ($this->countModules('copyright')) : ?>
             <div class="row classic">
-                <jdoc:include type="modules" name="copyright" style="joomberui" />
+                <nav class="columns center">
+                    <ul class="inline-list">
+                        <li>
+                            <a href="#">&copy; <?php echo date("Y"); ?> <?php echo htmlspecialchars($app->getCfg('sitename')); ?></a>
+                        </li>
+                        <li class="fa-inverse">|</li>
+                        <li><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf" target="_blank">Right to know (pdf)</a></li>
+                        <li class="fa-inverse">|</li>
+                        <li><a href="/terms-of-use/">Terms of use</a></li>
+                        <li class="fa-inverse">|</li>
+                        <li><a href="/privacypolicy/">Privacy Policy</a></li>
+                    </ul>
+                </nav>
             </div>
-<?php endif; ?>
         </div>
         <div class="bg-black">
         </div>

@@ -80,8 +80,6 @@ $belowcontent = (int) ($this->countModules('below-content') > 0);
 $below = (int) ($this->countModules('below') > 0);
 $bottom = (int) ($this->countModules('bottom') > 0);
 $footer = (int) ($this->countModules('footer') > 0);
-$copyright = (int) ($this->countModules('copyright') > 0);
-
 
 #----------------------------- Construct Code Snippets-----------------------------#
 // GPL code taken from Construct template framework by Matt Thomas http://construct-framework.com/

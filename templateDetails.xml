@@ -40,7 +40,6 @@
         <position>below</position>
         <position>bottom</position>
         <position>footer</position>
-        <position>copyright</position>
     </positions>
 
     <languages folder="language">
