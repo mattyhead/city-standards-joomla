@@ -1,5 +1,4 @@
 <?php
-defined('_JEXEC') or die;
 /* =====================================================================
   Philadelphia Standards Template: Based on City of Philadelphia Standards Docs
   Author:   Matthew Murphy
@@ -8,6 +7,8 @@ defined('_JEXEC') or die;
   Copyright:  City of Philadelphia - (C) 2018 - All rights reserved
   Licenses: GNU/GPL v3 or later http://www.gnu.org/licenses/gpl-3.0.html
   /* ===================================================================== */
+
+defined('_JEXEC') or die;
 
 // Load template framework
 include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
@@ -162,15 +163,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="row classic">
                 <nav class="columns center">
                     <ul class="inline-list">
-                        <li>
+                        <li class="medium-gray">
                             <a href="#">&copy; <?php echo date("Y"); ?> <?php echo htmlspecialchars($app->getCfg('sitename')); ?></a>
                         </li>
-                        <li class="fa-inverse">|</li>
-                        <li><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf" target="_blank">Right to know (pdf)</a></li>
-                        <li class="fa-inverse">|</li>
-                        <li><a href="/terms-of-use/">Terms of use</a></li>
-                        <li class="fa-inverse">|</li>
-                        <li><a href="/privacypolicy/">Privacy Policy</a></li>
+                        <li class="medium-gray">|</li>
+                        <li class="medium-gray"><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf" target="_blank">Right to know (pdf)</a></li>
+                        <li class="medium-gray">|</li>
+                        <li class="medium-gray"><a href="/terms-of-use/">Terms of use</a></li>
+                        <li class="medium-gray">|</li>
+                        <li class="medium-gray"><a href="/privacypolicy/">Privacy Policy</a></li>
                     </ul>
                 </nav>
             </div>
