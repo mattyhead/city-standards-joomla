@@ -3245,6 +3245,10 @@
   color: #a1a1a1 !important;
 }
 
+.medium-gray:hover {
+  color: #a1a1a1 !important;
+}
+
 .bg-medium-gray {
   background-color: #a1a1a1 !important;
 }
