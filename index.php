@@ -159,7 +159,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <jdoc:include type="modules" name="footer" style="joomberui" />
             </div>
 <?php endif; ?>
-<?php if ($this->countModules('footer')) : ?>
+<?php if ($this->countModules('copyright')) : ?>
             <div class="row classic">
                 <jdoc:include type="modules" name="copyright" style="joomberui" />
             </div>
