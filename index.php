@@ -1381,9 +1381,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="row classic">
                 <nav class="columns center">
                     <ul class="inline-list">
-                        <li><a href="/terms-of-use/">Terms of use</a></li>
-                        <li><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf" target="_blank">Right to know (pdf)</a></li>
-                        <li><a href="/privacypolicy/">Privacy Policy</a></li>
+                        <li class="medium-gray">
+                            <a href="#">&copy; <?php echo date("Y"); ?> <?php echo htmlspecialchars($app->getCfg('sitename')); ?></a>
+                        </li>
+                        <li class="medium-gray">|</li>
+                        <li class="medium-gray"><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf" target="_blank">Right to know (pdf)</a></li>
+                        <li class="medium-gray">|</li>
+                        <li class="medium-gray"><a href="/terms-of-use/">Terms of use</a></li>
+                        <li class="medium-gray">|</li>
+                        <li class="medium-gray"><a href="/privacypolicy/">Privacy Policy</a></li>
                     </ul>
                 </nav>
             </div>
