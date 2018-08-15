@@ -1320,63 +1320,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
         </div>
+<?php if ($this->countModules('footer')) : ?>
         <div class="fat">
             <div class="row pvs ptl-mu phm equal-height">
-                <section class="medium-8 columns phm pvm pvn-mu">
-                    <h2 class="mtn mbm">Site links</h2>
-                    <nav class="take-action">
-                        <ul>
-                            <li class="pvxs"><a href="/">Home</a></li>
-                            <li class="pvxs"><a href="/contact-us">Contact Us</a></li>
-                            <li class="pvxs"><a href="/voterapp">Polling Places</a></li>
-                            <li class="pvxs"><a href="/ballotbox-app">Election Results</a></li>
-                            <li class="pvxs"><a href="/elected-officials">Elected Officials</a></li>
-                        </ul>
-                    </nav>
-                </section>
-                <section class="medium-8 columns phm pll-mu pvm pvn-mu">
-                    <h2 class="mtn mbm">Our Department</h2>
-                    <nav class="take-action">
-                        <ul>
-                            <li class="pvxs"><a href="/stuff/we/do/">Programs & initiatives </a></li>
-                            <li class="pvxs"><a href="/stuff/weve/done/">Departmental Reports</a></li>
-                        </ul>
-                    </nav>
-                </section>
-                <section class="medium-8 columns phm pll-mu pvm pvn-mu">
-                    <h2 class="mtn mbm">The City Commissioners</h2>
-                    <nav class="city-social">
-                        <ul class="inline-list">
-                            <li class="pbm">
-                                <a href="https://www.facebook.com/CommissionerDeeley" class="prl" data-analytics="social">
-                                  <i class="fa fa-facebook fa-2x" title="Lisa's Facebook" aria-hidden="true"></i>
-                                  <span class="show-for-sr">Lisa's Facebook</span>
-                                </a>
-                            </li>
-                            <li class="pbm">
-                                <a href="https://www.facebook.com/CommishSchmidt" class="prl" data-analytics="social">
-                                  <i class="fa fa-facebook fa-2x" title="Al's Facebook" aria-hidden="true"></i>
-                                <span class="show-for-sr">Al's Facebook</span>
-                              </a>
-                            </li>
-                            <li class="pbm">
-                                <a href="https://twitter.com/commish_schmidt" class="prl" data-analytics="social">
-                                <i class="fa fa-twitter fa-2x" title="Al's Twitter" aria-hidden="true"></i>
-                                <span class="show-for-sr">Al's Twitter</span>
-                              </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav>
-                        <ul>
-                            <li class="pvxs"><a href="/bios/lisa/">Lisa Deeley</a></li>
-                            <li class="pvxs"><a href="/bios/al/">Al Schmidt</a></li>
-                            <li class="pvxs"><a href="/bios/anthony/">Anthony Clark</a></li>
-                        </ul>
-                    </nav>
-                </section>
+                <jdoc:include type="modules" name="footer" style="joomberui" />
             </div>
         </div>
+<?php endif; ?>
         <div class="bg-black">
             <div class="row classic">
                 <nav class="columns center">
