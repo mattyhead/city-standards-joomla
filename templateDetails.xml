@@ -33,6 +33,7 @@
         <position>debug</position>
         <position>breadcrumbs</position>
         <position>nav</position>
+        <position>hero</position>
         <position>top</position>
         <position>above</position>
         <position>above-content</position>

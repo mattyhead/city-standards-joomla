@@ -71,6 +71,7 @@ $leftWidth = 'large-' . $leftwidth;
 // Modules
 $header = (int) ($this->countModules('header') > 0);
 $nav = (int) ($this->countModules('nav') > 0);
+$hero = (int) ($this->countModules('hero') > 0);
 $top = (int) ($this->countModules('top') > 0);
 $above = (int) ($this->countModules('above') > 0);
 $abovecontent = (int) ($this->countModules('above-content') > 0);
