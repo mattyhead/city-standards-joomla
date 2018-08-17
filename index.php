@@ -13,8 +13,9 @@ defined('_JEXEC') or die;
 // Load template framework
 include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
 
-$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/phila-standards.css');
-    
+//$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/phila-standards.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/standards.css');
+  
 if ($customCSS != -1) {
    //$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/' . $customCSS);
 }
