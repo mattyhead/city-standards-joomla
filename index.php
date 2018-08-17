@@ -1194,23 +1194,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <?php if ($this->countModules('footer')) : ?>
         <jdoc:include type="modules" name="footer" style="joomberui" />
 <?php endif; ?>
-        <div class="bg-black">
-            <div class="row classic">
-                <nav class="columns center">
-                    <ul class="inline-list">
-                        <li class="medium-gray">
-                            <a href="#">&copy; <?php echo date("Y"); ?> <?php echo htmlspecialchars($app->getCfg('sitename')); ?></a>
-                        </li>
-                        <li class="medium-gray">|</li>
-                        <li class="medium-gray"><a href="http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf" target="_blank">Right to know (pdf)</a></li>
-                        <li class="medium-gray">|</li>
-                        <li class="medium-gray"><a href="/terms-of-use/">Terms of use</a></li>
-                        <li class="medium-gray">|</li>
-                        <li class="medium-gray"><a href="/privacypolicy/">Privacy Policy</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
     </footer>
     <div id="services-list" class="global-nav show-for-medium" data-swiftype-index="false">
         <div id="services-mega-menu" class="dropdown-pane mega-menu-dropdown" data-dropdown data-v-offset="0" data-hover-pane="true" data-trap-focus="true" data-hover="true" data-close-on-click="true">
